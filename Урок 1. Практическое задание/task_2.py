@@ -21,3 +21,6 @@ print(f"Время в формате чч:мм:сс - ", time_res.format('%HH:%M
 
 
 
+
+
+
