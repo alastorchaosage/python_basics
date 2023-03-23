@@ -8,3 +8,12 @@
 Введите число n: 3
 n + nn + nnn = 369
 """
+
+into = int(input("Введите целое положительное число: "))
+while into <= 0:
+    print("Введенное число не положительное. Введите целое положительное число: ")
+    into = int(input("Введите целое положительное число: "))
+else:
+    nn = into+into
+    nnn = into+into+into
+    print(f'{into}{nn}{nnn}')
